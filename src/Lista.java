@@ -27,6 +27,8 @@ public class Lista<Ele> {
 		return temp.getData();
 	}
 	
+
+	
 	
 	public void addDataBegin(Ele newObject) {  
 		 
