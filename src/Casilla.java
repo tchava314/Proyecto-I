@@ -26,5 +26,10 @@ public class Casilla {
 	public String getLetra(){
 		return Letra;
 	}
+	
+	public void setLetra(String newLetra){
+		Letra= newLetra;
+		
+	}
 
 }

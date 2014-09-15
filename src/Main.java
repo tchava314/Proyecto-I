@@ -35,7 +35,7 @@ public class Main {
 		
 		letraA= letraA.creaLista(a);
 		
-		
+		TAB.getObject(0).getObject(0).setLetra("Tobias");
 		
 		System.out.println(""+ TAB.getObject(0).getObject(0).getLetra() );
 		
