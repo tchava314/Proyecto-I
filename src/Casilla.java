@@ -3,10 +3,17 @@ public class Casilla {
 	private int valor;
 	private int bonus;
 
-	public Casilla() { // constructor
-		String letra = null;
-		int valor = 0;
-		int bonus = 0;
+	
+	public Casilla(String letra,int valor){ // Contructor casilla atril
+		 this.letra=  letra;
+		 this.valor = valor;
+		
+	}
+	
+	public Casilla() { // constructor casilla tablero
+		 letra = null;
+		 valor = 0;
+		 bonus = 0;
 	}
 
 	public void setLetra(String letra) { // metodo que le asigana una letra a la
