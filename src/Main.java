@@ -7,9 +7,17 @@ public class Main {
 		
 		char a=97;
 		Lista<Lista<String>> ABC= new Lista<Lista<String>>();
-		
-		
 		Lista<String> letraA ;
+		
+		
+		
+		Tablero tablero= new Tablero();
+		//tablero.setCas(new Casilla("g",4), 5, 5);
+		tablero.setCas(new Casilla("A",0), 5, 5);
+		Casilla algo=tablero.getCas(5, 5);
+		
+		System.out.print(""+algo.getBonus());
+		
 		
 		
 		
