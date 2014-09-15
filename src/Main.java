@@ -11,16 +11,12 @@ public class Main {
 		
 		
 		
-		Tablero tab= new Tablero();
-		Atril atril1= new Atril();
+		Tablero tablero= new Tablero();
+		//tablero.setCas(new Casilla("g",4), 5, 5);
+		tablero.setCas(new Casilla("A",0), 5, 5);
+		Casilla algo=tablero.getCas(5, 5);
 		
-		
-		
-		tab.getCas(0, 0).setLetra("Perrita");
-
-		tab.getCas(0, 1).setLetra("Perrita");
-		
-		System.out.println(""+ tab.getCas(0, 14).getLetra());
+		System.out.print(""+algo.getBonus());
 		
 		
 		

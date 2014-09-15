@@ -17,7 +17,7 @@ public class Tablero extends Lista<Lista<Casilla>> {
 			
 			TAB.addDataEnd(new Lista<Casilla>());
 			for (int j=0; j<y; j++){
-				TAB.getObject(i).addDataEnd(new Casilla());
+				TAB.getObject(i).addDataEnd(new Casilla(null,0,0));
 			     }
 		     }
 	  }
@@ -30,9 +30,11 @@ public class Tablero extends Lista<Lista<Casilla>> {
 	}
 	
 	public void setCas(Casilla newCas,int x, int y){
-		Casilla oldCas=TAB.getObject(x).getObject(y) ;
+		Casilla oldCas= getCas(x,y) ;
 		
-		oldCas= newCas;
+		oldCas=newCas ;
+		
+		newCas.setLetra("S");
 		
 	}
 	
