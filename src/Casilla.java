@@ -15,6 +15,18 @@ public class Casilla {
 		 valor = 0;
 		 bonus = 0;
 	}
+	
+	public String getLetra(){
+		return letra;
+	}
+	
+	public int getValor(){
+		return valor;
+	}
+	
+	public int getBonus(){
+		return bonus;
+	}
 
 	public void setLetra(String letra) { // metodo que le asigana una letra a la
 											// casilla
