@@ -13,7 +13,7 @@ public class Main {
 		
 		Tablero tablero= new Tablero();
 		//tablero.setCas(new Casilla("g",4), 5, 5);
-		tablero.setCas(new Casilla("A",0), 5, 5);
+		tablero.setCas(new Casilla(new Ficha(0,null)),0,0);
 		Casilla algo=tablero.getCas(5, 5);
 		
 		System.out.print(""+algo.getBonus());

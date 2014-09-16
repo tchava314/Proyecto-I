@@ -29,14 +29,14 @@ public class Casilla {
 
 	
 
-	public void setBonus(String bonus) {// metodo que reasigna un valor en
+	public void setBonus(String bonus,Ficha ficha) {// metodo que reasigna un valor en
 										// puntos a la casilla de acuerdo con el
 										// bonus extra que tenga
 		if (bonus == "2L") {
-			ficha.getValor = 2 * ficha.getValor;
+			//ficha.getValor() = 2 * ficha.getValor();
 		}
 		if (bonus == "3L") {
-			ficha.getValor = 3 * ficha.getValor;
+			//ficha.getValor() = 3 * ficha.getValor();
 		}
 		if (bonus == "2P") {
 

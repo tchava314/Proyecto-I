@@ -1,7 +1,9 @@
 public class Ficha {
+	
 	private int valor;
 	private String letra;
-	ficha(int valor,String letra){
+	
+	Ficha(int valor,String letra){
 		this.letra=letra;
 		this.valor=valor;
 	}
